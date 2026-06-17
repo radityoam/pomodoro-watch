@@ -25,7 +25,7 @@ Your durations are saved automatically to `settings.json` in your Windows user-d
 
 ## Build from source
 
-Requires [Node.js](https://nodejs.org) **22.12 or newer**.
+Requires [Node.js](https://nodejs.org) **v26.3.0 or newer**.
 
 ```bash
 npm install                # install Electron + builder (one time)
