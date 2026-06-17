@@ -1,0 +1,10 @@
+# dependencies (anyone can regenerate with: npm install)
+node_modules/
+
+# build output (the .exe goes on a GitHub Release, not in the repo)
+dist/
+
+# OS / editor junk
+Thumbs.db
+.DS_Store
+.vscode/

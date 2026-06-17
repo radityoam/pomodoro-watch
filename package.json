@@ -1,0 +1,24 @@
+{
+  "name": "pomodoro-watch",
+  "version": "1.0.0",
+  "description": "A floating watch-style Pomodoro timer",
+  "main": "main.js",
+  "author": "Radityo",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.radityo.pomodorowatch",
+    "productName": "Pomodoro Watch",
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true
+    }
+  }
+}
